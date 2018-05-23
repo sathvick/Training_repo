@@ -1,13 +1,25 @@
 package com.java.practice;
 
 import java.util.*;
+
 import java.io.*;
+/**
+ * 
+ * @author Sathvick
+ *checks the input data for the data type it can be fitted to.
+ */
 public class Datatype{
     public static void main(String []argh)
     {
          Scanner sc = new Scanner(System.in);
          int t=sc.nextInt();
+         /**
+          * t - number of input data it should check for 
+          */
          for(int i=0;i<t;i++)
+        	 /**
+        	  * loop to check for all data types
+        	  */
          {
             try
             {
@@ -25,6 +37,9 @@ public class Datatype{
             catch(Exception e)
             {
                 System.out.println(sc.next()+" can't be fitted anywhere.");
+                /**
+                 * return can't be fitted anywhere. if input data doesn't fit any data type.
+                 */
             }
          }
     }

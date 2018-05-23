@@ -1,5 +1,10 @@
 package com.java.practice;
-
+/**
+ * 
+ * @author Sathvick
+ * sample program to print hello world
+ *
+ */
 public class HelloWorld {
 
 	    public static void main(String[] args) {

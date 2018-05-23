@@ -2,7 +2,13 @@ package com.java.practice;
 
 
 	import java.util.*;
+
 	import java.security.*;
+	/**
+	 * 
+	 * @author Sathvick
+	 *
+	 */
 	public class JavaToString {
 	 public static void main(String[] args) {
 
@@ -12,6 +18,10 @@ package com.java.practice;
 	   Scanner in = new Scanner(System.in);
 	   int n = in .nextInt();
 	   in.close();
+	   /** Here are 3 ways to convert an int to a String 
+        String s = String.valueOf(n);
+        String s = Integer.toString(n);
+        */
 	   String s=Integer.toString(n);
 	   if (n == Integer.parseInt(s)) {
 		    System.out.println("Good job");
@@ -24,7 +34,10 @@ package com.java.practice;
 		 }
 		}
 
-		//The following class will prevent you from terminating the code using exit(0)!
+		/**
+		 * The following class will prevent you from terminating the code using exit(0)!
+		 *
+		 */
 		class DoNotTerminate {
 
 		 public static class ExitTrappedException extends SecurityException {

@@ -8,6 +8,11 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
+/**
+ * 
+ * @author Sathvick
+ *Sample if-else program to print the string for the given conditions.
+ */
 public class If_Else {
 
 
@@ -19,6 +24,9 @@ public class If_Else {
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
         scanner.close();
 if(N%2==1)
+	/**
+	 *  checks if the number is odd
+	 */
 {
     System.out.println("Weird");
 }

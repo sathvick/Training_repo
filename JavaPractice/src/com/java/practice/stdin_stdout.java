@@ -1,7 +1,12 @@
 package com.java.practice;
 
 	import java.util.*;
-
+/**
+ * 
+ * @author Sathvick
+ * Basic stdin and stdout program
+ *
+ */
 	public class stdin_stdout {
 	    private static Scanner scan;
 

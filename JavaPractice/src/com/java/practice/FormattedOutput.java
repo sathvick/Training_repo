@@ -1,7 +1,13 @@
 package com.java.practice;
 
 import java.util.Scanner;
-
+/**
+ * 
+ * @author Sathvick
+ * gives a formatted output where the string consits 15 charac spaces and 3 digit spaces
+ * even if u enter one or two digit number  0 is added at initial to form it 3 digit number 
+ *
+ */
 public class FormattedOutput {
 
     public static void main(String[] args) {

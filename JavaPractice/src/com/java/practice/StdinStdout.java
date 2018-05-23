@@ -1,7 +1,12 @@
 package com.java.practice;
 
 import java.util.Scanner;
-
+/**
+ * 
+ * @author Sathvick
+ * Basic prgram to print the input data in a given format.
+ *
+ */
 public class StdinStdout {
 
     public static void main(String[] args) {

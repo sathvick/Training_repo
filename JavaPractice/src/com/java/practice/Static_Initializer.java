@@ -5,12 +5,21 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-
+/**
+ * 
+ * @author Sathvick
+ *program to calculate area of parallelogram
+ */
 public class Static_Initializer {
+	/**
+	 * static initializer block to initialize static variables
+	 */
 	static boolean flag = false;
 	static int B = 0;
 	static int H = 0;
-	 
+	 /**
+	  * B,H variables for param
+	  */
 	static
 	    {
 	    
