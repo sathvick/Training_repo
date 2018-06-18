@@ -1,6 +1,5 @@
 package com.java.practice;
 
-import java.io.*;
 import java.util.*;
 /**
  * 
@@ -8,16 +7,17 @@ import java.util.*;
  *EOF stands for end-of-file
  */
 public class EOF {
-
+	 /**
+     * assign line number to the written string and returns the line number and string together.
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int lineNumber = 0;
         while(sc.hasNext()){
             lineNumber++;
             System.out.println(""+lineNumber+" "+sc.nextLine());
-            /**
-             * assign line number to the written string and returns the line number and string together.
-             */
-        }
+           
+        }sc.close();
     }
+    
 }

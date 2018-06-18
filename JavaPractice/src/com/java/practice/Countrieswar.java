@@ -1,8 +1,7 @@
 package com.java.practice;
 
 import java.util.*;
-import java.lang.*;
-import java.io.*;
+
 
 class Countrieswar {
 	public static void main (String[] args) {
@@ -52,6 +51,7 @@ class Countrieswar {
 					System.out.println(" DRAW");
 				}
 			}
+		sc.close();
 
 
 		}

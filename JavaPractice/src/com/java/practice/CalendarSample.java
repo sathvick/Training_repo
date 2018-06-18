@@ -53,5 +53,6 @@ public class CalendarSample {
         String year = in.next();
         
         System.out.println(getDay(day, month, year));
+        in.close();
     }
 }

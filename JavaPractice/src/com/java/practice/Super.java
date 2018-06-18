@@ -1,7 +1,5 @@
 package com.java.practice;
 
-import java.util.*;
-import java.io.*;
 
 
 class BiCycle{

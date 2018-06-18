@@ -1,10 +1,8 @@
 package com.java.practice;
 
-import java.io.*;
+
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+
 /**
  * 
  * @author Sathvick

@@ -1,8 +1,6 @@
 package com.java.practice;
 
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class Modulo {
 	public static void main (String[] args) {
@@ -18,7 +16,9 @@ class Modulo {
 				System.out.println((n+1)/2);
 
 			}
+			
 
 		}
+		sc.close();
 	}
 }

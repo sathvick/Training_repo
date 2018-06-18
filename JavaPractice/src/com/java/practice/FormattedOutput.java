@@ -28,6 +28,8 @@ public class FormattedOutput {
                 System.out.printf("%-14s %03d", s3, z);
                 System.out.println();
             System.out.println("================================");
+     
             }
+            sc.close();
     }
 }
